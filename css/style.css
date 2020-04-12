@@ -1,0 +1,248 @@
+:root {
+  --h1: 'Work Sans', sans-serif;
+  --h2: 'Open Sans', sans-serif;
+  --para: 'Roboto', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden; /* Hide scrollbars */
+}
+
+span {
+  position: relative;
+  overflow: hidden;
+}
+
+a {
+  display: block;
+  background-color: HSL(217.5, 57.1%, 97.3%); 
+  padding: 15px;
+  text-decoration: none; 
+  border-radius: 0.3em;
+  color: #386BF3;
+}
+
+span {
+  display: block;
+  background-color: HSL(217.5, 57.1%, 97.3%); 
+  padding: 15px;
+  text-decoration: none; 
+  border-radius: 0.3em;
+}
+
+.logo_img{
+  width: 42px;
+  height: 42px;
+  max-width: 100%;
+  height: auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 13px 27px -5px hsla(240, 30.1%, 28%, 0.25),0 8px 16px -8px hsla(0, 0%, 0%, 0.3),0 -6px 16px -6px hsla(0, 0%, 0%, 0.03);
+}
+
+.dark_link {
+  text-decoration: none;
+  background-color: white;
+  width: 80%;
+  margin: auto;
+  padding: 5px;
+}
+
+.link {
+  background-color: transparent ;
+  display: inline;
+  text-decoration: none;
+}
+
+a:hover {
+  color: hsla(0, 0%, 60%, 1)
+}
+/* Character Styling */
+header h1 {
+  font-family: var(--h1);
+  font-weight: 600;
+  font-size: 42px;
+  display: inline-block;
+  margin: 25px;
+  margin-bottom: 0;
+}
+
+header h2 {
+  margin-top: .5em;
+  font-family: var(--h2);
+  font-weight: lighter;
+}
+
+h2{
+  font-family: var(--h2);
+  font-family: var(--para);
+  line-height: 1.15;
+  font-size: 24px;
+}
+
+p { 
+  margin-bottom: .5em;
+  font-family: var(--para);
+  margin-top: 1em;
+  line-height: 1.5em;
+  font-size: 16px;
+}
+
+.content_container h2 {
+  font-size: 2.25rem;
+  font-weight: 600;
+
+}
+
+/* main */
+/* Header*/
+.content_section_light {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;  
+  margin-top: 15px;
+  padding: 100px;
+}
+
+.header__ads {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 350px;
+  height: 140px;
+  margin: 10px;
+  background-color: HSL(217.5, 57.1%, 97.3%);
+  margin-top: 40px;
+  padding: 15px;
+}
+
+.header__ads-img {
+  background-image: url(/img/cg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 0.3em;
+  width: 130px;
+  height: 100px;
+}
+
+.header__ads-text {
+  display: block;
+  flex: 1 0 0;
+}
+
+.header__ads-text p {
+  margin: 0;
+  line-height: unset;
+}
+
+.ads-link {
+  background-color: HSL(217.5, 57.1%, 97.3%);
+  color: #333;
+  font-size: 11px;
+}
+
+/* main section */
+.content_section_light-1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 100px;
+}
+
+.image_container {
+  max-width: 100%;
+}
+
+.content_section_dark {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 450px;
+  background-color: #F4F7FC;
+  padding: 100px;
+}
+
+.content_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  padding: 100px;
+  line-height: 2rem;
+}
+
+.section_light_container {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  width: 50%;
+  
+}
+
+pre.code-box {
+  box-shadow: 0 0 0 1px hsla(240, 30.1%, 28%, 0.05), 0 2px 5px 0 hsla(240, 30.1%, 28%, 0.1), 0 1px 1px 0 hsla(0, 0%, 0%, 0.07);
+  background: white;
+  padding: 18px;
+}
+
+pre, code {
+  font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+}
+
+/* footer */
+footer {
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+  margin-top: 100px;
+  height: 378.5px;
+}
+
+.footer__container-logo {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+footer p {
+  color: hsla(0, 100%, 100%, 0.6);
+  font-size: 14px;
+  text-align: center;
+  margin: 0.2em;
+  padding: 0.2em;
+}
+
+.foot_logo {
+  height: auto;
+  width: 230px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-shadow: none;
+}
+
+.foot_link {
+   background-color: #000000;
+}
+
+.foot_link2 {
+  display: inline;
+  padding: 0;
+  background-color: #000000;
+  color: hsla(0, 100%, 100%, 0.8);
+}

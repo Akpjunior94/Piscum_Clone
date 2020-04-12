@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lorem Piscum</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+ 
+  <header class="content_section_light">
+    <div class="logo_container">
+      <div class="header__logo-text">
+        <img class= "logo_img" src="/img/logo.svg" alt="">
+        <h1>Lorem Picsum</h1>
+        <h2>The Lorem Ipsum for photos</h2>
+      </div>
+      <div class="header__ads">
+        <div class="header__ads-img">   
+        </div>
+        <div class="header__ads-text">
+          <p><a href="#" class="ads-link">The top AWS, GCP, and Azure cloud courses to level up your skills</a></p>
+          <p><a href="#" class="ads-link">ADS VIA CARBON</a></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="image_container">
+      <img src="/img/image1_1.jpg" alt="head_img">
+    </div>
+  </header>
+
+  <div class="content_section_dark">
+    <div class= "content_container">
+      <h2>Easy to use, stylish placeholders</h2>
+      <p>Just add your desired image size (width & height) after our URL, and you'll get a random image.</p>
+      <a href="#" class="dark_link">https://picsum.photos/200/300</a>
+      <p>To get a square image, just add the size.</p>
+      <a href="#" class="dark_link">https://picsum.photos/200/300</a>
+    </div>
+  </div>
+
+  <div class="content_section_light-1">
+    <div class="section_light_container">
+      <h2>Specific Image</h2>
+      <p>Get a specific image by adding /id/{image} to the start<br>of the url.</p>
+      <a href="#">https://picsum.photos/id/237/200/300</a>
+      <p>You can find a list of all the images <a href="#" class="link">here.</a></p>
+    </div>
+    <div>
+      <img src="/img/image2.jpg" alt="image2">
+    </div>
+  </div>
+
+  <div class="content_section_light-1">
+    <div>
+      <img src="/img/image3.jpg" alt="image3">
+    </div>
+    <div>
+      <h2>Static Random Image</h2>
+      <p>Get the same random image every time based on a seed, by adding <br>/seed/{seed} to the start of the url.</p>
+      <a href="#">https://picsum.photos/seed/picsum/200/300</a>
+    </div>
+  </div>
+
+  <div class="content_section_light-1">
+    <div>
+      <h2>Grayscale</h2>
+      <p>Get a grayscale image by appending ?grayscale to the end of the url.</p>
+      <a href="#">https://picsum.photos/200/300?grayscale</a>
+    </div>
+    <div>
+      <img src="/img/image4.jpg" alt="image3">
+    </div>
+  </div>
+
+  <div class="content_section_light-1">
+    <div>
+      <img src="/img/image5-blur.jpg" alt="image3">
+    </div>
+    <div>
+      <h2>Blur</h2>
+      <p>Get a blurred image by appending ?blur to the end of the url.</p>
+      <a href="#">https://picsum.photos/200/300/?blur</a>
+      <p>You can adjust the amount of blur by providing a number between 1 <br> and 10. </p>
+      <a href="#">https://picsum.photos/200/300/?blur</a>
+    </div>
+  </div>
+
+  <div class="content_section_light-1">
+    <div>
+      <h2>Advanced Usage</h2>
+      <p>You may combine any of the options above. <br>For example, to get a specific image that is grayscale and blurred.</p>
+      <a href="#">https://picsum.photos/id/870/200/300?grayscale&blur=2</a>
+      <p>To request multiple images of the same size in your browser, add the <br> random query param to prevent the images from being cached: </p>
+      <span> img src="https://picsum.photos/200/300?random="><br>   
+      imgsrc="https://picsum.photos/200/300?random=2"></span>
+      <p>If you need a file ending, you can add .jpg to the end of the url. </p>
+      <a href="#">https://picsum.photos/200/300.jpg</a>
+      <p>To get an image in the WebP format, you can add .webp to the end of <br> the url.</p>
+      <a href="#">https://picsum.photos/200/300.webp</a>
+    </div>
+    <div>
+      <img src="/img/image6.jpg" alt="image6">
+    </div>
+  </div>
+
+  <div class="content_section_light-1">
+    <div>
+      <pre class="code-box"><code class="break-words">[
+        {
+            "id": "0",
+            "author": "Alejandro Escamilla",
+            "width": 5616,
+            "height": 3744,
+            "url": "https://unsplash.com/...",
+            "download_url": "https://picsum.photos/..."
+        }
+    ]</code></pre>
+    </div>
+    <div>
+      <h2>List Images</h2>
+      <p>Get a list of images by using the /v2/list endpoint.</p>
+      <a href="#">https://picsum.photos/v2/list</a>
+      <p>The API will return 30 items per page by default. <br>
+        To request another page, use the ?page parameter <br> 
+        To change the amount of items per page, use the ?limit parameter.</p>
+      <a href="#">https://picsum.photos/v2/list?page=2&limit=100</a>
+      <p>The Link header includes pagination information about the next/previous pages</p>
+    </div>
+  </div>
+
+  <div class="content_section_light-1">
+    <div>
+      <h2>Image Details</h2>
+      <p>Get information about a specific image by using the the /id/{id}/info <br> endpoint.</p>
+      <a href="#">https://picsum.photos/id/0/info</a>
+      <p>You can find out the ID of an image by looking at the Picsum-ID <br> header, or the User Comment field in the EXIF metadata.</p>
+    </div>
+    <div>
+      <pre class="code-box"><code class="break-words">[
+        {
+            "id": "0",
+            "author": "Alejandro Escamilla",
+            "width": 5616,
+            "height": 3744,
+            "url": "https://unsplash.com/...",
+            "download_url": "https://picsum.photos/..."
+        }
+    ]</code></pre>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer__container">
+      <div class="footer__container-logo">
+        <a class="foot_link" href="#"><img class="foot_logo" src="/img/digitalocean.svg" alt="digitalocean_logo"></a>
+        <a class="foot_link" href=""><img class="foot_logo" src="/img/cloudflare.svg" alt="cloudflare_logo"></a>
+      </div>
+      <p>Created by <a class="foot_link2" href="#">David Marby</a>  & <a class="foot_link2" href="#">Nijiko Yonskai</a></p>
+      <p>Source</p>
+      <p>Having trouble? Poke <a class="foot_link2" href="#">@DMarby</a> on Twitter</p>
+      <p>Images from <a class="foot_link2" href="#">Unsplash</a> </p>
+    </div>
+  </footer>
+</body>
+</html>
