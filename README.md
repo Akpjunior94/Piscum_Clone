@@ -3,19 +3,19 @@
 ## Screenshots
 
 ### Screenshot 1
-![](/screenshot/1.PNG)
+![](/screenshot/1.jpg)
 
 ### Screenshot 2
-![](/screenshot/2.PNG)
+![](/screenshot/2.jpg)
 
 ### Screenshot 3
-![](/screenshot/3.PNG)
+![](/screenshot/3.jpg)
 
 ### Screenshot 4
-![](/screenshot/4.PNG)
+![](/screenshot/4.jpg)
 
 ### Screenshot 5
-![](/screenshot/5.PNG)
+![](/screenshot/5.jpg)
 
 ### Screenshot 6
-![](/screenshot/6.PNG6
+![](/screenshot/6.jpg)
