@@ -251,9 +251,9 @@ p {
 }
 
 .content_section_light-1 {
-  display: flex;
+  /* display: flex;
   justify-content: space-around;
-  align-items: flex-start;
+  align-items: flex-start; */
   padding: 100px;
 }
 
